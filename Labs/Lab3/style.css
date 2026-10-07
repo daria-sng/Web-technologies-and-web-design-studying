@@ -1,0 +1,147 @@
+/*Перше завдання*/
+body {
+    background-color: #e1e1e1;
+}
+
+.wrapper { 
+    width: 940px; 
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline; 
+    font-weight: 600;
+    font-size: 18px; 
+    color: #333333;
+    padding-bottom: 50px;
+}
+
+.autor, .topic, .definition { 
+    float: left; 
+    padding: 20px; 
+    margin: 5px; 
+    height: 200px;
+}
+
+.autor {
+    width: 250px;
+    background-color: #4583e6; 
+    color: #ffffff;
+}
+
+.topic { 
+    width: 250px;
+    background-color: #336e20; 
+    color: #ffffff;
+}
+
+.definition {
+    width: 250px;
+    background-color: #6a206e; 
+    color: #ffffff;
+}
+
+/*Друге завдання*/
+.wrapper_blocks {
+    width: 390px;
+    height: 285px;
+    margin: 270px auto 0;
+    position: relative;
+    background-color: #cbcaca;
+}
+
+.block1, .block2, .block3 {
+    font-size: 19px; 
+    position: absolute;
+}
+
+.block1{
+    width: 130px;
+    height: 120px;
+    top: 12px;
+    left: 10px;
+    background-color: #ab66ae;
+    padding: 20px;
+    padding-top: 30px;
+    z-index: 1;
+}
+
+.block2 {
+    width: 135px;
+    height: 85px;
+    top: 167px;
+    left: 95px;
+    background-color: #dd7c22;
+    padding: 13px;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.block3 {
+    width: 110px;
+    height: 77px;
+    top: 67px;
+    left: 180px;
+    background-color: #5fa12d;
+    padding: 19px;
+    padding-left: 65px;
+    z-index: 3;
+}
+
+/*Третє завдання*/
+.wrapper_3 {
+    width: 495px;
+    height: 190px;
+    margin: 50px auto 30px;
+    position: relative;
+}
+
+.block_first, .block_second, .block_third {
+    position: absolute;
+    top: 0;
+    height: 170px;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    outline: 2px solid #050505
+}
+
+.block_first {
+    width: 150px;
+    left: 0;
+    background-color: #3c822c; 
+    color: #050505;
+}
+
+.block_second {
+    width: 128px;
+    left: 345px;
+    background-color: #4b64d2; 
+    color: #ede9e9;
+    display: none;
+}
+
+.block_third {
+    width: 130px;
+    right: 164px;
+    background-color: #6c2c8c;
+    color: #f9f9f9;
+    display: none;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    left: 170px;
+    width: 170px;
+    height: 190px;
+}
+
+.block_first:hover .block_second {
+    display: block;
+}
+
+.block_second:hover .block_third {
+    display: block;
+}
