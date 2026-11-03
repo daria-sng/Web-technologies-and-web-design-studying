@@ -1,0 +1,65 @@
+/*Перше завдання*/
+.info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    color:rgb(8, 63, 63);
+    background-color: rgb(134, 241, 191);
+}
+
+.info.cancel{
+    color:rgb(56, 4, 4);
+    background-color: rgb(255, 113, 113);
+}
+
+/*Друге завдання*/
+.blocks{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.block{
+    width: 20px;
+    background-color:rgb(233, 133, 238);
+    border: 1px solid rgb(204, 173, 255);
+}
+
+/*Третє завдання*/
+h3{
+    text-align: center;
+    color: rgb(48, 47, 40);
+    background-color: rgb(255, 255, 158);
+    margin: 150px auto 8px;
+    padding: 5px;
+    width: 350px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    color:rgb(58, 66, 73);
+    background-color: LightYellow;
+}
+
+tr.headlines{
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid rgb(69, 40, 5);
+    padding: 4px;
+}
+
+td.total_sum{
+    font-weight: bold;
+}
