@@ -33,7 +33,7 @@ function validate(){
         flag = false;
     }
     else if(password.length < 8 || !passwordRegex.test(password)){
-        document.getElementById("loginPasswof").innerHTML = "*Пароль має містити щонайменше 8 символів\r\nДозволено вводити літери та числа";
+        document.getElementById("loginPasswof").innerHTML = "*Пароль має містити щонайменше 8 символів<br>Дозволено вводити літери та числа";
         flag = false;
     }
 
@@ -54,7 +54,7 @@ function validate2(){
     let password2 = document.forms["registr"]["password2"].value;
     
     if(name.length<2 || !nameRegex.test(name)){
-        document.getElementById("registrNameof").innerHTML = "*Ім'я повинно містити щонайменше 2 символи\r\nДозволено вводити літери та числа";
+        document.getElementById("registrNameof").innerHTML = "*Ім'я має містити щонайменше 2 символи<br>Дозволено вводити літери та числа";
         flag = false;
     }
 
@@ -68,7 +68,7 @@ function validate2(){
     }
 
     if(password.length < 8 || !passwordRegex.test(password)){
-        document.getElementById("registrPasswof").innerHTML = "*Пароль має містити щонайменше 8 символів\r\nДозволено вводити літери та числа";
+        document.getElementById("registrPasswof").innerHTML = "*Пароль має містити щонайменше 8 символів<br>Дозволено вводити літери та числа";
         flag = false;
     }
 
