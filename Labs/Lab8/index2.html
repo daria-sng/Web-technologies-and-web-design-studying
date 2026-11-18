@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Практична робота №8(4)</title>
+        <link type="text/css" href="style2.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Магазин комп'ютерного обладнання</h2>
+        <div class="forms">
+            <form name="login" onsubmit="return validate()" novalidate>
+                <table>
+                    <tr>
+                        <td><h3>Авторизація</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Пошта:</label>
+                            <input type="email" placeholder="dari@gmail.com" name="email">
+                            <span class="error" id="loginEmailof"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Пароль:</label>
+                            <input type="password" placeholder="Пароль" name="password">
+                            <span class="error" id="loginPasswof"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                         <td class="buttons">
+                            <button type="submit">Увійти</button>
+                            <button type="reset" onclick="clean('login')">Скасувати</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="result" id="loginResult"></td>
+                    </tr>
+                </table>
+            </form>
+
+             <form name="registr" onsubmit="return validate2()" novalidate>
+                <table>
+                    <tr>
+                        <td><h3>Реєстрація</h3></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Ваше ім'я:</label>
+                            <input type="text" placeholder="Наприклад, Дар'я01" name="name" maxlength="20">
+                            <span class="error" id="registrNameof"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Пошта:</label>
+                            <input type="email" placeholder="dari@gmail.com" name="email">
+                            <span class="error" id="registrEmailof"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Пароль:</label>
+                            <input type="password" placeholder="Не менше 8 символів" name="password">
+                            <span class="error" id="registrPasswof"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Повторіть пароль:</label>
+                            <input type="password" placeholder="Пароль" name="password2">
+                            <span class="error" id="registrPasswof2"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label class="agree">
+                                <input type="checkbox" name="agree">
+                                Погоджуюсь з правилами магазину
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                         <td class="buttons">
+                            <button type="submit">Зареєструватися</button>
+                            <button type="reset" onclick="clean('registr')">Скасувати</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="result" id="registrResult"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="file2.js"></script>
+    </body>
+</html>

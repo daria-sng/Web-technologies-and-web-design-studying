@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Практична робота №8(3)</title>
+        <link type="text/css" href="style1.css" rel="stylesheet">
+    </head>
+    <body>
+        <form name="form" onsubmit="return validate()" novalidate>
+            <table>
+                <tr>
+                    <td><h2>Оформлення оренди каяка</h2></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Ваше ім'я:</label>
+                        <input type="text" placeholder="Наприклад, Дар'я" maxlength="16" name="name">
+                        <span class="error" id="nameof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Номер телефона:</label>
+                        <input type="text" placeholder="+380*********" maxlength="13" name="phone">
+                        <span class="error" id="phoneof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Пошта:</label>
+                        <input type="email" placeholder="name@gmail.com" name="email">
+                        <span class="error" id="emailof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Тип каяка:</label>
+                        <select name="kayak">
+                            <option value="">-----</option>
+                            <option>Одномісний</option>
+                            <option>Двомісний</option>
+                            <option>Туристичний</option>
+                        </select>
+                        <span class="error" id="kayakof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Дата оренди:</label>
+                        <input type="date" min="2027-08-08" max="2027-08-30" name="date">
+                        <span class="error" id="dateof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Кількість днів: (до 7 максимум)</label>
+                        <input type="number" placeholder="Наприклад, 3" min="1" max="7" name="days">
+                        <span class="error" id="daysof"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="buttons">
+                        <button type="submit">Замовити</button>
+                        <button type="reset" onclick="clean()">Скасувати</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="result"></td>
+                </tr>
+            </table>
+
+        </form>
+        <script src="file1.js"></script>
+    </body>
+</html>

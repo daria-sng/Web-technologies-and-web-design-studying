@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Практична робота №8(1-2)</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="module">
+            <h2>Бренди ноутбуків</h2>
+            <table>
+                <tr>
+                    <td onclick="information(0)">HP</td>
+                    <td onclick="information(1)">Dell</td>
+                    <td onclick="information(2)">Lenovo</td>
+                    <td onclick="information(3)">Acer</td>
+                    <td onclick="information(4)">Asus</td>
+                </tr>
+            </table>
+
+            <div id="content">
+                <p class="intro">Коли йдеться про купівлю нового пристрою, важливо розуміти, як правильно вибрати ноутбук залежно від ваших потреб. Сучасний ринок пропонує величезний вибір моделей, що відрізняються не тільки ціною, а й продуктивністю, автономністю, розмірами та багатьма іншими характеристиками. Якщо підійти до вибору усвідомлено, можна підібрати варіант, який ідеально підійде під ваші завдання і не потребуватиме зайвих витрат.</p>
+                <img src="https://kvshop.com.ua/users/articles/med/11111.webp"/>
+            </div>
+        </div>
+
+
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                <img src="https://alp.com.ua/content/uploads/images/95-11.jpeg" alt="Photo 1"/>
+                <div class="slideText">Базові правила безпеки для каякінгу</div>
+            </div>
+            <div class="slide">
+                <img src="https://alp.com.ua/content/uploads/images/95-13.jpeg" alt="Photo 2"/>
+                <div class="slideText">Завжди одягайте рятувальний жилет!</div>
+            </div>
+            <div class="slide">
+                <img src="https://alp.com.ua/content/uploads/images/95-15-1.jpeg" alt="Photo 3"/>
+                <div class="slideText">Не запливайте занадто далеко!</div>
+            </div>
+            <div class="slide">
+                <img src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2021/6/16/cwszjpcskhrmlfwjz3yy/kayak-river" alt="Photo 4"/>
+                <div class="slideText">Вибирайте маршрут і рівень складності який відповідає Вашій фізичній підготовці!</div>
+            </div>
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+            <a class="last" onclick="minusSlide()">&#10094;</a>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currSlide(1)"></span>
+                <span class="dot" onclick="currSlide(2)"></span>
+                <span class="dot" onclick="currSlide(3)"></span>
+                <span class="dot" onclick="currSlide(4)"></span>
+            </div>
+        </div>
+        <script src="file.js"></script>
+    </body>
+</html>
