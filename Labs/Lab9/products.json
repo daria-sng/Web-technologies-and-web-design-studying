@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Palit GF RTX 5060",
+        "category": "videoCard",
+        "amount": 4,
+        "image": "https://content.rozetka.com.ua/goods/images/big/634827369.jpg"
+    },
+    {
+        "name": "Asus GeForce RTX 5060",
+        "category": "videoCard",
+        "amount": 2,
+        "image": "https://cdn.stls.store/cdn_thumbs_webp/500-500/gallery/e4/48/3930220.jpeg.webp"
+    },
+    {
+        "name": "AMD Radeon RX 9070",
+        "category": "videoCard",
+        "amount": 5,
+        "image": "https://click.ua/content/shop/products/152044/photos/videokarta-amd-radeon-rx-9070-xt-16gb-gddr6-aorus-elite-gigabyte-left-parenthesisgvminusr9070xtaorus-eminus16gdright-parenthesi-800x800-9264.jpg"
+    },
+    {
+        "name": "AMD Ryzen 5 5600",
+        "category": "processor",
+        "amount": 6,
+        "image": "https://click.ua/content/shop/products/113569/photos/protsessor-amd-ryzen-5-5600-3-5ghz-32mb-65w-am4-tray-100-000000927-800-800-9e15.jpg"
+    },
+    {
+        "name": "Intel Core I5-12400",
+        "category": "processor",
+        "amount": 8,
+        "image": "https://brain.com.ua/static/images/prod_img/6/3/U0648263_1738074734.jpg"
+    },
+    {
+        "name": "Intel I7-12700",
+        "category": "processor",
+        "amount": 2,
+        "image": "https://cdn.27.ua/sc--media--prod/default/bb/ed/f8/bbedf8aa-68bd-4600-8f84-4cecbb6d068f.jpg"
+    }
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Практична робота №9</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Магазин комп'ютерного обладнання</h2>
+        </div>
+
+        <div class="page">
+            <div class="content">
+                <h2>Каталог товарів</h2>
+                <div id="products"></div>
+
+                <h2 id="unavailableTitle">Немає в наявності</h2>
+                <div id="unavailable"></div>
+            </div>
+            
+            <div class="container">
+                <h2>Кошик</h2>
+                <p>Кількість товарів: <span id="count">0</span></p>
+                <p id="lastAdd"></p>
+                <ul id="basket"></ul>
+            </div>
+        </div>
+        <script src="store.js"></script>
+    </body>
+</html>

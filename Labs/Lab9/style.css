@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 255, 255);
+    color:rgb(64, 64, 64);
+}
+
+.header{
+    padding: 16px 32px;
+    border-bottom: 3px solid black;
+}
+
+.header h2{
+    margin: 0;
+    color: rgb(64, 64, 64);
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 32px;
+}
+
+.content{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.container{
+    width: 250px;
+    padding: 15px;
+    background-color: rgb(204, 254, 255);
+    border: 1px solid black;
+    position: sticky;
+    top: 16px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card{
+    width: 250px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 4px;
+    padding: 11px;
+}
+
+.card img{
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 8px 0;
+    color: rgb(64, 64, 64);
+}
+
+.card button{
+    display: block;
+    margin-top: 12px;
+}
+
+.tag{
+    display: inline-block;
+    padding: 2px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+#unavailable {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#unavailable .card{
+    opacity: 0.6;
+}
+
+#lastAdd{
+    background-color: rgb(178, 255, 204);
+    padding: 10px;
+}
+
+#lastAdd:empty{
+    display: none;
+}
+
+#basket{
+    padding-left: 20px;
+}
+
+#basket li{
+    padding: 7px 0;
+    border-bottom: 1px solid black;
+}
